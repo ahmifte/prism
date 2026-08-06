@@ -1,0 +1,32 @@
+{
+  "name": "@hermedion/prism-core",
+  "version": "0.1.0",
+  "description": "Cross-provider LLM price estimation: tokenize a prompt and know what it costs on every model before you send it.",
+  "keywords": [
+    "llm",
+    "pricing",
+    "tokens",
+    "cost-estimation",
+    "openai",
+    "anthropic",
+    "gemini"
+  ],
+  "license": "MIT",
+  "author": "Hermedion",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "gpt-tokenizer": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2"
+  }
+}

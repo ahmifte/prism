@@ -1,0 +1,16 @@
+{
+  "name": "prism",
+  "private": true,
+  "description": "Prism by Hermedion — know what an LLM call costs before you make it.",
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}

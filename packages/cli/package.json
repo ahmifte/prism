@@ -1,0 +1,25 @@
+{
+  "name": "@hermedion/prism-cli",
+  "version": "0.1.0",
+  "description": "Prism CLI: estimate LLM costs across providers before you spend.",
+  "license": "MIT",
+  "author": "Hermedion",
+  "type": "module",
+  "bin": {
+    "prism": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"no cli tests yet\""
+  },
+  "dependencies": {
+    "@hermedion/prism-core": "workspace:^",
+    "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2"
+  }
+}
