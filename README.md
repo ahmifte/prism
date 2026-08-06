@@ -1,5 +1,8 @@
 # Prism
 
+[![CI](https://github.com/hermedion/prism/actions/workflows/ci.yml/badge.svg)](https://github.com/hermedion/prism/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 **Know what an LLM call costs before you make it.**
 
 Prism is Hermedion's open-source LLM cost engine. Point it at a prompt and it
