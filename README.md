@@ -1,6 +1,6 @@
 # Prism
 
-[![CI](https://github.com/hermedion/prism/actions/workflows/ci.yml/badge.svg)](https://github.com/hermedion/prism/actions/workflows/ci.yml)
+[![CI](https://github.com/ahmifte/prism/actions/workflows/ci.yml/badge.svg)](https://github.com/ahmifte/prism/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 **Know what an LLM call costs before you make it.**
